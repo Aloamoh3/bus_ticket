@@ -35,7 +35,6 @@ class HomeScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
 
-              /// TITLE
               const Text(
                 "TICKET",
                 style: TextStyle(
@@ -47,7 +46,6 @@ class HomeScreen extends StatelessWidget {
 
               const SizedBox(height: 20),
 
-              /// ROUTE CARD
               Container(
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
@@ -65,7 +63,6 @@ class HomeScreen extends StatelessWidget {
 
               const SizedBox(height: 20),
 
-              /// STATIONS + TIME
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -106,7 +103,6 @@ class HomeScreen extends StatelessWidget {
 
               const SizedBox(height: 20),
 
-              /// SEATS TABLE
               Expanded(
                 child: SingleChildScrollView(
                   child: Table(
@@ -156,7 +152,6 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
 
-              /// BUY BUTTON
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
